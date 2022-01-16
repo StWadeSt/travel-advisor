@@ -1,7 +1,7 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react';
 import { Paper, Typogrphy, useMediaQuery } from '@material-ui/core';
-import LocationOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
+import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 import Rating from '@material-ui/lab';
 
 import useStyles from './Styles';
@@ -24,7 +24,6 @@ const coordinates = { lat: 0, lng: 0};
                 options={""}
                 onChange={""}
                 onChildClick={""}
-
             >
 
             </GoogleMapReact>
